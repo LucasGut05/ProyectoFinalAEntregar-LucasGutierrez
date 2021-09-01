@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+/*$colorMain: white;*/
+$fontMain: "Alata", sans-serif;
+
+/*Formato ZURCED ACCESORIOS*/
+
+
+
+@for $i from 1 to 6 {
+  h#{$i} {font-size: 15vh /$i;}
+}
+
+
+.parrafo{
+  font-size: 5vh;
+  width: 50%;
+
+}
+
+.index__h1{
+  text-align: center;
+  font-family: 'Satisfy', cursive;
+  padding: 20vh 0vh;
+  justify-content: flex-end;
+}
+
+
+
